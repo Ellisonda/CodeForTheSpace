@@ -1,0 +1,95 @@
+
+
+* {
+  
+    font-family: "Oswald", sans-serif;
+  }
+  body {
+    background-image: url(https://img.freepik.com/free-vector/rocket-space-scene_1308-32412.jpg);
+      
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+  }
+  header {
+    background-color: #8D81FA;
+    border: solid 1px;
+    border-radius: 10px;
+    
+    
+  }
+  nav {
+    display: flex;
+    margin: 0 30px;
+    align-items: center;
+    justify-content: space-between;
+    text-shadow: -1px 1px 0 #000,
+                  1px 1px 0 #000,
+                  1px -1px 0 #000,
+                  -1px -1px 0 #000;
+    color: white;
+  }
+  
+  .brand img{
+    width: 40px;
+  }
+  
+  ul  {
+    display: flex;
+    margin: 15px;
+    background-color: #8D81FA;
+  }
+  li {
+    padding: 5px;
+    list-style: none;
+    cursor: pointer;
+  }
+  article {
+    background-color: transparent;
+    text-align: center;
+  }
+  article h1 {
+    font-family: "Honk", system-ui;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 250%;
+  }
+  article h2 {
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    text-shadow: -1px 1px 0 #000,
+                  1px 1px 0 #000,
+                  1px -1px 0 #000,
+                  -1px -1px 0 #000;
+    color: white;
+  }
+  article ul {
+    background-color: transparent;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  button {
+    box-shadow: 5px 5px black;
+    cursor: pointer;
+    border-radius: 20%;
+  }
+  button:hover {
+    background-color: #8D81FA;
+    transition: 0.4s;
+  }
+  footer h3{
+    padding-top: 10%;
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    text-align: center;
+    text-shadow: -1px 1px 0 #000,
+                  1px 1px 0 #000,
+                  1px -1px 0 #000,
+                  -1px -1px 0 #000;
+    color: white;
+  }
